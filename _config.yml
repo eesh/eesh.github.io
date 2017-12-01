@@ -1,1 +1,28 @@
-theme: jekyll-theme-slate
+name: Eesh Chilukalapalli
+author: Eesh Chilukalapalli
+description: Welcome to my website!
+github: http://www.github.com/eesh
+twitter: http://www.twitter.com/eeshlikhith
+facebook: http://www.facebook.com/eeshlikhith
+linkedin: http://www.linkedin.com/eesh-chilukalapalli-
+email: eesh.likhith[at]gmail.com
+
+##Make sure to edit the above fields, especially for disqus.
+
+
+highlighter: pygments
+markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
