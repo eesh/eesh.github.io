@@ -1,38 +1,26 @@
 ---
 title: Home
 ---
-{% include showcase.html %}
+{% include home_showcase.html %}
 
-{% if site.posts != empty %}
-<div class="recent-posts">
-  <h1>Recent Posts</h1>
-  {% for post in site.posts limit: 3 %}
-    {% if forloop.first %}
-      {% assign add_class = 'most-recent' %}
-      {% capture fresh_tag %}
-        &nbsp;<span class="badge"><smaller>FRESH</smaller></span>
-      {% endcapture %}
-    {% endif %}
-    <ul class="homepage-posts {{ add_class }}">
-      <li>
-        <span>
-          <h4>
-            <a href="{{ post.url }}">
-              {{ post.title }}
-            </a>
-            {{ fresh_tag }}
-            <time class="pull-right">
-              {{ post.date | date_to_string | date: "%b %-d, %Y"  }}
-            </time>
-          </h4>
-        </span>
-      </li>
-    </ul>
-    {% assign add_class = '' %}
-    {% assign fresh_tag = '' %}
-  {% endfor %}
-  <ul>
-    <a href="{{ site.baseurl }}/list.html">View More...</a>
-  </ul>
 </div>
-{% endif %}
+
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-9">
+
+      <br />
+      <h1>Who am I?</h1>
+      <span>My name is Eesh Chilukalapalli and I'm a programmer and a creator. I am super passionate about making software because it is soooooo easy to give life to the ideas that pop up inside of my head. It is also amazing how even a small piece of software can be an important part of someone's life!</span>
+      <br /> <br />
+      <span>I'm currently pursuing my Bachelor's degree in software engineering at SRM University, Chennai. So far the journey has been great and I've learnt a lot of valuable lessons. Once I graduate, I wish to pursue a Master's degree in the field of artificial intelligence and machine learning. I love helping people and one day I wish to create a large-scale product that will become an integral part of people's lives (for the better). I also love tinkering with robots and I think they have a lot of potential. A small set of emotions can make them feel a lot more personal than they are right now.</span>
+      <br /> <br />
+      <span>My hobbies include motorcycling, photography, and music. I love photography for the same reason I love making software. Just like how software allows me to materialize the ideas I get in my head, a camera allows me to capture the scenes that I picture in my head. I play the guitar and I'm currently learning how to play the piano. The only piece I can play right now is 'River flow in you' by Yiruma. I find that piece extremely soothing and always listen to it with my eyes closed. I also sing from time to time but until I can make the recordings sound professional I'm not going to go into details :D</span>
+
+    </div>
+
+  </div>
+
+</div>
