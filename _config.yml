@@ -11,8 +11,7 @@ home_title: Hello! Welcome to my personal website :)
 ##Make sure to edit the above fields, especially for disqus.
 
 
-highlighter: pygments
-markdown: redcarpet
+highlighter: rogue
 redcarpet:
   extensions: ["tables"]
 
