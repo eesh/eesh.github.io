@@ -11,40 +11,48 @@ title: Projects
 
   <br />
 
-  <div class="row">
-    <div class="col-md-6">
-      <div class="panel">
-        <div class="row">
-          <div class="col-md-3">
-            <img src="images/self.jpg" style="margin: 15px">
-          </div>
-          <div class="col-md-9">
-            <h3>Project title</h3>
-            <button class="btn btn-primary">View</button>&nbsp;<button class="btn btn-success">Github</button>
-            <br />
-            <br />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tellus eu ex fermentum tincidunt. Phasellus faucibus, odio nec dictum facilisis, mi turpis hendrerit leo.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+  {% assign newrow = 'true' %}
 
-    <div class="col-md-6">
-      <div class="panel">
-        <div class="row">
-          <div class="col-md-3">
-            <img src="images/self.jpg" style="margin: 15px">
+  {% for project in site.categories.projects %}
+
+  {% if newrow == 'true' %}
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="images/self.jpg" style="margin: 15px">
+            </div>
+            <div class="col-md-9">
+              <h3>Project title</h3>
+              <button class="btn btn-primary">View</button>&nbsp;<button class="btn btn-success">Github</button>
+              <br />
+              <br />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tellus eu ex fermentum tincidunt. Phasellus faucibus, odio nec dictum facilisis, mi turpis hendrerit leo.</p>
+            </div>
           </div>
-          <div class="col-md-9">
-            <h3>Project title</h3>
-            <button class="btn btn-primary">View</button>&nbsp;<button class="btn btn-success">Github</button>
-            <br />
-            <br />
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tellus eu ex fermentum tincidunt. Phasellus faucibus, odio nec dictum facilisis, mi turpis hendrerit leo.</p>
+        </div>
+      </div>
+      {% assign newrow = 'false' %}
+  {% else %}
+      <div class="col-md-6">
+        <div class="panel">
+          <div class="row">
+            <div class="col-md-3">
+              <img src="images/self.jpg" style="margin: 15px">
+            </div>
+            <div class="col-md-9">
+              <h3>Project title</h3>
+              <button class="btn btn-primary">View</button>&nbsp;<button class="btn btn-success">Github</button>
+              <br />
+              <br />
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tellus eu ex fermentum tincidunt. Phasellus faucibus, odio nec dictum facilisis, mi turpis hendrerit leo.</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
+  {% endif %}
+  {% endfor %}
 
 </div>
