@@ -1,0 +1,6 @@
+---
+title: Poppy Ergo BLE support [WIP]
+github: https://github.com/eesh/Poppy_BLE_Server
+logo: nodejs-default.png
+short_desc: A proof of concept to connect to the Poppy Ergo Jr. robot using the Scratch Device Manager.
+---
