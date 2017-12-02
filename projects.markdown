@@ -52,6 +52,7 @@ title: Projects
         </div>
       </div>
     </div>
+    {% assign newrow = 'true' %}
   {% endif %}
   {% endfor %}
 
