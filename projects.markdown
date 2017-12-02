@@ -21,14 +21,14 @@ title: Projects
         <div class="panel">
           <div class="row">
             <div class="col-md-3">
-              <img src="images/self.jpg" style="margin: 15px">
+              <img src="images/{{ project.logo }}" style="margin: 15px">
             </div>
             <div class="col-md-9">
-              <h3>Project title</h3>
-              <button class="btn btn-primary">View</button>&nbsp;<button class="btn btn-success">Github</button>
+              <h3>{{ project.title }}</h3>
+              <a href="{{ project.url }}" class="btn btn-primary">View</a>&nbsp;<a href="{{ project.github }}" class="btn btn-success">Github</a>
               <br />
               <br />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tellus eu ex fermentum tincidunt. Phasellus faucibus, odio nec dictum facilisis, mi turpis hendrerit leo.</p>
+              <p>{{ project.short_desc }}</p>
             </div>
           </div>
         </div>
@@ -39,14 +39,14 @@ title: Projects
         <div class="panel">
           <div class="row">
             <div class="col-md-3">
-              <img src="images/self.jpg" style="margin: 15px">
+              <img src="images/{{ project.logo }}" style="margin: 15px">
             </div>
             <div class="col-md-9">
-              <h3>Project title</h3>
-              <button class="btn btn-primary">View</button>&nbsp;<button class="btn btn-success">Github</button>
+              <h3>{{ project.title }}</h3>
+              <a href="{{ project.url }}" class="btn btn-primary">View</a>&nbsp;<a href="{{ project.github }}" class="btn btn-success">Github</a>
               <br />
               <br />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eget tellus eu ex fermentum tincidunt. Phasellus faucibus, odio nec dictum facilisis, mi turpis hendrerit leo.</p>
+              <p>{{ project.short_desc }}</p>
             </div>
           </div>
         </div>
