@@ -538,6 +538,11 @@ time
   font-size:1em
 }
 
+.project-thumbnail
+{
+  position: relative;
+}
+
 .user-card
 {
   background-color:#f9f9f9;

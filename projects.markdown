@@ -20,11 +20,11 @@ title: Projects
       <div class="col-md-6">
         <div class="panel">
           <div class="row">
-            <div class="col-md-3">
-              <img src="images/{{ project.logo }}" style="margin: 15px">
+            <div class="col-md-3 vcenter">
+              <img src="images/{{ project.logo }}" style="margin: 15px" class="img-responsive">
             </div>
             <div class="col-md-9">
-              <h3>{{ project.title }}</h3>
+              <h4>{{ project.title }}</h4>
               <a href="{{ project.url }}" class="btn btn-primary">View</a>&nbsp;<a href="{{ project.github }}" class="btn btn-success">Github</a>
               <br />
               <br />
@@ -39,10 +39,10 @@ title: Projects
         <div class="panel">
           <div class="row">
             <div class="col-md-3">
-              <img src="images/{{ project.logo }}" style="margin: 15px">
+              <img src="images/{{ project.logo }}" style="margin: 15px" class="project-thumbnail">
             </div>
             <div class="col-md-9">
-              <h3>{{ project.title }}</h3>
+              <h4>{{ project.title }}</h4>
               <a href="{{ project.url }}" class="btn btn-primary">View</a>&nbsp;<a href="{{ project.github }}" class="btn btn-success">Github</a>
               <br />
               <br />
