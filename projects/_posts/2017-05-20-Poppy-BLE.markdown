@@ -8,6 +8,7 @@ short_desc: A proof of concept to connect to the Poppy Ergo Jr. robot using the 
 ### Node Modules
 
 * <a href="https://github.com/sandeepmistry/bleno">bleno</a>
+
 * <a href="https://www.npmjs.com/package/ip">ip</a>
 
 ### Purpose

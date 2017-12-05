@@ -8,9 +8,13 @@ short_desc: NodeJS + Express backend of the SRM Venue Management System.
 ### Technologies/Libraries
 
 * NodeJS
+
 * Mongoose client for MongoDB
+
 * Whirlpool for hashing
+
 * Express for REST API framework
+
 * body-parser to parse the request body
 
 ### Purpose

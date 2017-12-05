@@ -8,6 +8,7 @@ short_desc: Python Flask server to generate AR Hamming codes for the Poppy Ergo 
 ### Libraries
 
 * <a href="http://flask.pocoo.org/">Flask framework for python</a>
+
 * <a href="https://pypi.python.org/pypi/hampy/1.4.1">Hampy Hamming code generator</a>
 
 ### Purpose

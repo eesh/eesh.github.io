@@ -8,14 +8,19 @@ short_desc: This Scratch extension lets you control and record the movement of t
 ### Features
 
 * Control the movement
+
 * Record the movement
+
 * Play recorded movements
+
 * Capture images
+
 * Recognize any AR hamming code
 
 ### Libraries
 
 * <a href="https://github.com/nodeca/pica">Pica</a> for image manipulation
+
 * <a href="http://cs.stanford.edu/people/karpathy/convnetjs/">ConvnetJS for digit recognition</a>
 
 ### Purpose
