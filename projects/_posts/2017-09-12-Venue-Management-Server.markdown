@@ -5,7 +5,7 @@ logo: nodejs-default.png
 short_desc: NodeJS + Express backend of the SRM Venue Management System.
 ---
 
-### Technologies/Libraries:
+### Technologies/Libraries
 
 * NodeJS
 * Mongoose client for MongoDB
@@ -13,7 +13,7 @@ short_desc: NodeJS + Express backend of the SRM Venue Management System.
 * Express for REST API framework
 * body-parser to parse the request body
 
-### Purpose:
+### Purpose
 
 Throughout the year, a lot of events are organised at SRM University. These events are conducted at different venues within the university. These venues have to be reserved by event organizers well in advance to ensure the venue’s availability and to avoid any future conflicts. The reservation of venues at SRM University is done by hand and the reservation records are still physically maintained by the people that are in-charge of different venues. In case of unavailability of a venue, the event organizers must call different venue administrators to find out if the venues are available. This is a tedious and time taking task. Sometimes there may be changes in reservations. A low priority reservation may have to be replaced with a higher priority one or the venue may not be open on the day of reservation. In such cases, communication between involved parties can be difficult. Confirmation of reservation may require constant follow ups by the event organizers.
 
