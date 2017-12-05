@@ -4,3 +4,13 @@ github: https://github.com/eesh/Poppy_BLE_Server
 logo: nodejs-default.png
 short_desc: A proof of concept to connect to the Poppy Ergo Jr. robot using the Scratch Device Manager.
 ---
+
+### Node Modules
+
+* <a href="https://github.com/sandeepmistry/bleno">bleno</a>
+
+### Purpose
+
+Poppy Ergo Jr. is an open-source robot kit developed by the Flowers lab at Inria, France (<a href="https://www.poppy-project.org">https://www.poppy-project.org"</a> and <a href="https://www.poppy-education.org">https://www.poppy-project.org"</a>, CC-BY-SA). It can currently be controlled via a Snap extension, or a ScratchX extension, both of which employ the use of a HTTP server that runs on the Raspberry Pi on the board. The problem with this approach is that extensions require the robot's IP address to connect and control it. This makes setting up the robot extremely hard for someone who isn't well versed with computers and networking.
+
+We are trying to solve this issue by adding bluetooth support to the robot. Scratch has developed a Scratch Device Manager that can scan for Scratch compliant bluetooth devices and connect to them. The bleno module for NodeJS allows developers to run a bluetooth server on devices that supports bluetooth.  The module can also be used to develop a server for peripheral devices which is what is used in the POC. 
